@@ -11,15 +11,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    outline: green 5px dashed;
-    padding: 10px;
+    /* outline: green 5px dashed; */
+    /* padding: 10px; */
 }
 
 header h1 {
-    margin: 0%;
-    margin-bottom: 5px;
-    ;
+    margin: 5px 0px 5px 0px;
     padding: 5px;
+    font-size: 1.5rem;
     font-weight: normal;
     align-self: center;
     display: inline-block;
@@ -31,28 +30,75 @@ header h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px 0px 10px;
+    background-color: #e4eedc;
+    padding: 10px 20px 10px 20px;
     outline: blue 1px dashed;
 }
 
 .brand {
     color: red;
     font-weight: bold;
-    ;
     text-decoration: none;
     font-size: 1.5rem;
 }
 
 nav ul {
     display: flex;
-    flex-direction: column;
+    list-style: none;
+    margin: 5px;
+    margin: 0;
+}
+
+nav li {
+    margin: 15px;
+}
+
+nav a {
+    font-size: 1rem;
+    text-decoration: underline;
     padding: 0;
     margin: 0;
 }
 
+nav a:hover {
+    color: red;
+    /* font-size: 1rem;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0; */
+}
+
+
+.container {
+    background-color: rgb(252, 19, 167);
+    outline: purple 5px dotted;
+    padding: 5px;
+    ;
+}
 
 main {
     padding: 10px;
     margin-top: 10px;
-    outline: yellow solid 4px;
+    outline: yellow dotted 5px;
+}
+
+aside {
+    padding: 10px;
+    margin-top: 10px;
+    outline: rgb(5, 181, 250) 5px dotted;
+}
+
+video {
+    border: black 3px solid;
+    margin-right: 10px;
+    width: 50%;
+    height: auto;
+    ;
+}
+
+img {
+    border: black 3px solid;
+    margin-right: 10px;
+    width: 30%;
+    height: auto;
 }
