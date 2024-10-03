@@ -70,28 +70,43 @@ nav a:hover {
 
 
 .container {
-    background-color: rgb(252, 19, 167);
-    outline: purple 5px dotted;
+    display: flex;
+    background-color: rgb(250, 206, 234);
+    /* outline: purple 5px dotted; */
     padding: 5px;
     ;
 }
 
 main {
+    flex: 70%;
     padding: 10px;
     margin-top: 10px;
-    outline: yellow dotted 5px;
+    /* outline: yellow dotted 5px; */
 }
 
 aside {
+    flex: 30%;
     padding: 10px;
     margin-top: 10px;
-    outline: rgb(5, 181, 250) 5px dotted;
+    /* outline: rgb(5, 181, 250) 5px dotted; */
+}
+
+.blogcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blogcolumns {
+    width: 30%;
+    text-align: center;
 }
 
 video {
-    border: black 3px solid;
+    border: black 1px solid;
     margin-right: 10px;
-    width: 50%;
+    width: 75%;
     height: auto;
     ;
 }
@@ -99,6 +114,44 @@ video {
 img {
     border: black 3px solid;
     margin-right: 10px;
-    width: 30%;
-    height: auto;
+    width: 200px;
+    /* height: auto; */
+}
+
+audio {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+footer {
+    background-color: #d3d4d5;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 5px 0px 5px;
+}
+
+thead th {
+    /* display: inline-block; */
+    padding: 20px 10px;
+    outline: 4px red solid;
+
+}
+
+td {
+    text-align: center;
+    padding: 10px;
 }
